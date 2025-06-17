@@ -57,3 +57,30 @@ button:hover{
   color: white;
   font-size: 2em;
 }
+
+@media (max-width: 600px) {
+  body{
+    padding-top: 2rem;
+  }
+
+  #temp-converter {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  #result-section {
+    font-size: 1.5em;
+    width: auto;
+    padding: 30px 20px;
+  }
+
+  button {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  #textBox {
+    width: 100%;
+  }
+}
