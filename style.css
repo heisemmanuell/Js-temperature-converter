@@ -1,0 +1,59 @@
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: hsl(0, 0%, 90%);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 160px;
+}
+
+form{
+  background-color: hsl(0, 0%, 100%);
+}
+
+#temp-converter{
+  display: flex;
+  border: 3px solid hsl(151, 60%, 26%);
+  width: 550px;
+  height: 350px;
+  box-shadow: 5px 5px 15px hsl(151, 60%, 26%);
+  border-radius: 5px;
+}
+
+#temp-details h2, label{
+  color: hsl(151, 60%, 26%);
+}
+
+#temp-details{
+  padding: 20px;
+}
+
+#textBox{
+  width: 50%;
+  text-align: center;
+  font-size: 1em;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+button{
+  background-color: hsl(151, 60%, 26%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 50px ;
+  padding: 10px;
+  margin-left: 80px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: hsl(151, 62%, 38%);
+}
+
+#result-section{
+  background-color: hsl(151, 60%, 26%);
+  width: 300px;
+  justify-items: center;
+  padding-top: 130px;
+  color: white;
+  font-size: 2em;
+}
